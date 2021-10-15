@@ -565,16 +565,17 @@ footer{
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-
+	background-color:  #0799f5;
+	border-radius: 5px;
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+.footer-icons a:hover{
+  color: #e0ac1c;
 }
 
 /* Here is the code for Responsive Footer */
@@ -695,3 +696,13 @@ footer{
 }
 
 /* Additional */
+
+.map__info a{
+  text-decoration: none;
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(0, 177, 246);
+}
+.map__info a:hover{
+  color: #e0ac1c;
+}
