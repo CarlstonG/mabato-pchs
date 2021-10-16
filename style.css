@@ -605,13 +605,31 @@ footer{
   }
 }
 
+.back{
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width:768px){
+  .Logo_text{
+    font-size: 15px;
+  }
   body{
     overflow-x: hidden;
   }
   nav h4{
       display: none;
   }
+  .buttons {
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 4rem;
+  }
+ .buttons h3 {
+   font-size: 50px;
+   justify-content: center;
+ }
+
 
   .back{
       width: 100%;
@@ -629,6 +647,7 @@ footer{
   }
 
   .nav-links{
+    display: none;
     padding: 50px 0;
     position:absolute;
     right:0px;
@@ -679,6 +698,7 @@ footer{
   align-items: center;
  
 }
+
 
 
 
