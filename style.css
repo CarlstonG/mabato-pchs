@@ -186,6 +186,10 @@ height: 100%;
     transform: translate(-50%, -50%);  
     text-align: center;
   }
+
+  .buttons h3 {
+    font-size: 50px;
+  }
   .container {
       margin-top: 200px;
     margin-bottom: 10px;
