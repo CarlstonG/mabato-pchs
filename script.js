@@ -31,3 +31,11 @@ const navSlide = () => {
       mapId: 'b14345d20db46e28'
     });
   }
+
+
+//
+
+document.querySelector('#copyright_year').innerText = new Date().getFullYear();
+
+
+  
